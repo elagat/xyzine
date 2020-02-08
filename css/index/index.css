@@ -144,12 +144,12 @@ header nav {
   display: flex;
 }
 header nav .logo {
-  padding-top: 25px;
-  font-weight: bold;
+  padding-top: 5px;
+  width: 45px;
 }
 @media (max-width: 500px) {
   header nav .logo {
-    display: none;
+    padding-right: 20px;
   }
 }
 header nav .logo img {
@@ -176,12 +176,7 @@ header nav .links a {
 }
 @media (max-width: 500px) {
   header nav .links a {
-    padding-right: 10px;
-  }
-}
-@media (max-width: 500px) {
-  #home {
-    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 #donate {
@@ -198,7 +193,7 @@ header .image {
 }
 @media (max-width: 500px) {
   header .image {
-    height: 170px;
+    height: 180px;
   }
 }
 header .image .woods {
@@ -232,44 +227,21 @@ header .image .name .zine {
   font-style: italic;
 }
 .motto {
-  font-size: 1.8rem;
+  font-size: 0.8rem;
   margin: 30px 20px;
   line-height: 1.2;
-}
-.new-issue {
-  height: 360px;
-  border: 7px solid gold;
-  border-radius: 3px;
-  padding: 25px;
-  margin-bottom: 25px;
-}
-.new-issue h2 {
-  font-size: 4.2rem;
-  text-align: center;
-  padding-bottom: 20px;
-}
-@media (max-width: 500px) {
-  .new-issue h2 {
-    font-size: 2.4rem;
-  }
-}
-.new-issue ul li {
-  padding-bottom: 12px;
-  line-height: 1.2;
-  font-size: 1.2rem;
-}
-@media (max-width: 500px) {
-  .new-issue {
-    height: 600px;
-    margin: 0px 15px;
-  }
 }
 .call-for-submissions {
   height: 360px;
   border: 7px solid gold;
   border-radius: 3px;
   padding: 25px;
-  margin-bottom: 25px;
+}
+@media (max-width: 500px) {
+  .call-for-submissions {
+    height: 420px;
+    margin: 0px 15px;
+  }
 }
 .call-for-submissions h2 {
   font-size: 4.2rem;
@@ -284,13 +256,7 @@ header .image .name .zine {
 .call-for-submissions ul li {
   padding-bottom: 12px;
   line-height: 1.2;
-  font-size: 1.2rem;
-}
-@media (max-width: 500px) {
-  .call-for-submissions {
-    height: 420px;
-    margin: 0px 15px;
-  }
+  font-size: 1.4rem;
 }
 .mindfulness-talks {
   height: 360px;
@@ -298,52 +264,32 @@ header .image .name .zine {
   border-radius: 3px;
   padding: 25px;
 }
-.mindfulness-talks .group {
-  display: flex;
-  flex-direction: row-reverse;
+@media (max-width: 500px) {
+  .mindfulness-talks {
+    height: 420px;
+    margin: 0px 15px;
+  }
 }
-.mindfulness-talks .group div h2 {
+.mindfulness-talks h2 {
   font-size: 4.2rem;
   text-align: center;
   padding-bottom: 20px;
 }
 @media (max-width: 500px) {
-  .mindfulness-talks .group div h2 {
+  .mindfulness-talks h2 {
     font-size: 2.4rem;
   }
 }
-.mindfulness-talks .group div p {
+.mindfulness-talks p {
   font-size: 1.2rem;
   line-height: 1.2;
 }
-.mindfulness-talks .group img {
-  height: 340px;
-  width: auto;
-  padding-left: 20px;
-}
-@media (max-width: 500px) {
-  .mindfulness-talks .group img {
-    height: 250px;
-    padding-left: 45px;
-  }
-}
-@media (max-width: 500px) {
-  .mindfulness-talks .group {
-    display: inline;
-  }
-}
-@media (max-width: 500px) {
-  .mindfulness-talks {
-    height: 750px;
-    margin: 0px 15px;
-  }
-}
 .contact {
-  height: 70px;
+  height: 90px;
   background-color: black;
   color: white;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 15px;
+  margin-top: 60px;
 }
 .about h2 {
   margin: 30px 20px 15px 20px;
