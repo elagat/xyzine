@@ -144,12 +144,12 @@ header nav {
   display: flex;
 }
 header nav .logo {
-  padding-top: 5px;
-  width: 45px;
+  padding-top: 25px;
+  font-weight: bold;
 }
 @media (max-width: 500px) {
   header nav .logo {
-    padding-right: 20px;
+    display: none;
   }
 }
 header nav .logo img {
@@ -176,7 +176,12 @@ header nav .links a {
 }
 @media (max-width: 500px) {
   header nav .links a {
-    padding-right: 15px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 500px) {
+  #home {
+    padding-left: 15px;
   }
 }
 #donate {
@@ -193,7 +198,7 @@ header .image {
 }
 @media (max-width: 500px) {
   header .image {
-    height: 180px;
+    height: 170px;
   }
 }
 header .image .woods {
@@ -227,21 +232,72 @@ header .image .name .zine {
   font-style: italic;
 }
 .motto {
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   margin: 30px 20px;
   line-height: 1.2;
+}
+.new-issue {
+  height: 360px;
+  border: 7px solid green;
+  border-radius: 3px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.new-issue h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .new-issue h2 {
+    font-size: 2.4rem;
+  }
+}
+.new-issue ul li {
+  padding-bottom: 12px;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  .new-issue {
+    height: 600px;
+    margin: 0px 15px;
+  }
+}
+.interview {
+  height: 700px;
+  border: 7px solid gold;
+  border-radius: 3px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.interview h2 {
+  font-size: 4.2rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .interview h2 {
+    font-size: 2.4rem;
+  }
+}
+.interview ul li {
+  padding-bottom: 12px;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  .interview {
+    height: 600px;
+    margin: 0px 15px;
+  }
 }
 .call-for-submissions {
   height: 360px;
   border: 7px solid gold;
   border-radius: 3px;
   padding: 25px;
-}
-@media (max-width: 500px) {
-  .call-for-submissions {
-    height: 420px;
-    margin: 0px 15px;
-  }
+  margin-bottom: 25px;
 }
 .call-for-submissions h2 {
   font-size: 4.2rem;
@@ -256,7 +312,13 @@ header .image .name .zine {
 .call-for-submissions ul li {
   padding-bottom: 12px;
   line-height: 1.2;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  .call-for-submissions {
+    height: 420px;
+    margin: 0px 15px;
+  }
 }
 .mindfulness-talks {
   height: 360px;
@@ -264,32 +326,52 @@ header .image .name .zine {
   border-radius: 3px;
   padding: 25px;
 }
-@media (max-width: 500px) {
-  .mindfulness-talks {
-    height: 420px;
-    margin: 0px 15px;
-  }
+.mindfulness-talks .group {
+  display: flex;
+  flex-direction: row-reverse;
 }
-.mindfulness-talks h2 {
+.mindfulness-talks .group div h2 {
   font-size: 4.2rem;
   text-align: center;
   padding-bottom: 20px;
 }
 @media (max-width: 500px) {
-  .mindfulness-talks h2 {
+  .mindfulness-talks .group div h2 {
     font-size: 2.4rem;
   }
 }
-.mindfulness-talks p {
+.mindfulness-talks .group div p {
   font-size: 1.2rem;
   line-height: 1.2;
 }
+.mindfulness-talks .group img {
+  height: 340px;
+  width: auto;
+  padding-left: 20px;
+}
+@media (max-width: 500px) {
+  .mindfulness-talks .group img {
+    height: 250px;
+    padding-left: 45px;
+  }
+}
+@media (max-width: 500px) {
+  .mindfulness-talks .group {
+    display: inline;
+  }
+}
+@media (max-width: 500px) {
+  .mindfulness-talks {
+    height: 750px;
+    margin: 0px 15px;
+  }
+}
 .contact {
-  height: 90px;
+  height: 70px;
   background-color: black;
   color: white;
-  padding: 15px;
-  margin-top: 60px;
+  padding: 20px;
+  margin-top: 40px;
 }
 .about h2 {
   margin: 30px 20px 15px 20px;

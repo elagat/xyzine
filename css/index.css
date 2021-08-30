@@ -244,7 +244,7 @@ header .image .name .zine {
   margin-bottom: 25px;
 }
 .new-issue h2 {
-  font-size: 4.2rem;
+  font-size: 3.2rem;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -264,6 +264,56 @@ header .image .name .zine {
     margin: 0px 15px;
   }
 }
+.interview {
+  height: 2100px;
+  border: 7px solid gold;
+  border-radius: 3px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.interview h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .interview h2 {
+    font-size: 2.4rem;
+  }
+}
+.interview ul li {
+  padding-bottom: 12px;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+.interview ul #qu {
+  font-weight: bold;
+  font-style: italic;
+}
+.interview ul #italics {
+  font-style: italic;
+}
+.interview ul .group {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media (max-width: 500px) {
+  .interview ul .group {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.interview ul .group img {
+  height: 340px;
+  width: auto;
+  padding-left: 20px;
+}
+@media (max-width: 500px) {
+  .interview {
+    height: 4000px;
+    margin: 0px 15px;
+  }
+}
 .call-for-submissions {
   height: 360px;
   border: 7px solid gold;
@@ -272,7 +322,7 @@ header .image .name .zine {
   margin-bottom: 25px;
 }
 .call-for-submissions h2 {
-  font-size: 4.2rem;
+  font-size: 3.2rem;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -303,7 +353,7 @@ header .image .name .zine {
   flex-direction: row-reverse;
 }
 .mindfulness-talks .group div h2 {
-  font-size: 4.2rem;
+  font-size: 3.2rem;
   text-align: center;
   padding-bottom: 20px;
 }
